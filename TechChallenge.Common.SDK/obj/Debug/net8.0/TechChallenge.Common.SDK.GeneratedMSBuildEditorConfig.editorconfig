@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TechChallenge.Common.SDK
-build_property.ProjectDir = C:\Users\fvieira\source\repos\TechChallenge.Common.SDK\TechChallenge.Common.SDK\
+build_property.ProjectDir = C:\Users\fova\repo\TechChallenge.Common.SDK\TechChallenge.Common.SDK\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

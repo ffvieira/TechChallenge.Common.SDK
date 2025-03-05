@@ -11,5 +11,6 @@ dotnet add package SharedLibrary
 Configurar a injeção de dependencia:
 
 builder.Services.AddDbContext<MyDbContext>(options => options.UseSqlServer(Environment.GetEnvironmentVariable("SqlConnectionString")));
+builder.Services.AddScoped(typeof(ContactRepository<,>));
 
 builder.Services.AddSingleton<RabbitMqService>(new RabbitMqService("localhost"));

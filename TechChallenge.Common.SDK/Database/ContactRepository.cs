@@ -17,8 +17,10 @@ public class ContactRepository<TContext, TEntity> where TContext : DbContext whe
     public async Task AddAsync(TEntity entity)
     {
         await _retryPolicy.ExecuteAsync(async () =>
-        _context.Set<TEntity>().AddAsync(entity));
-        await _context.SaveChangesAsync();
+        {
+            await _context.Set<TEntity>().AddAsync(entity);
+            await _context.SaveChangesAsync();
+        });        
     }
 
     public async Task UpdateAsync(TEntity entity)
@@ -45,5 +47,10 @@ public class ContactRepository<TContext, TEntity> where TContext : DbContext whe
         {
             return await _context.Set<TEntity>().FindAsync(id);
         });
+    }
+
+    public IQueryable<TEntity> Query()
+    {
+        return _context.Set<TEntity>().AsQueryable();
     }
 }

@@ -1,5 +1,0 @@
-C:\Users\fvieira\source\repos\TechChallenge.Common.SDK\TechChallenge.Common.SDK\obj\Debug\net8.0\TechChallenge.Common.SDK.csproj.AssemblyReference.cache
-C:\Users\fvieira\source\repos\TechChallenge.Common.SDK\TechChallenge.Common.SDK\obj\Debug\net8.0\TechChallenge.Common.SDK.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\fvieira\source\repos\TechChallenge.Common.SDK\TechChallenge.Common.SDK\obj\Debug\net8.0\TechChallenge.Common.SDK.AssemblyInfoInputs.cache
-C:\Users\fvieira\source\repos\TechChallenge.Common.SDK\TechChallenge.Common.SDK\obj\Debug\net8.0\TechChallenge.Common.SDK.AssemblyInfo.cs
-C:\Users\fvieira\source\repos\TechChallenge.Common.SDK\TechChallenge.Common.SDK\obj\Debug\net8.0\TechChallenge.Common.SDK.csproj.CoreCompileInputs.cache
